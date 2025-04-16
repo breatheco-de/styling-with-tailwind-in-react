@@ -1,0 +1,23 @@
+{
+  "00.0-welcome": {
+    "us": "00.0-welcome"
+  },
+  "01.0-introduction-to-tailwind-css": {
+    "us": "01.0-introduction-to-tailwind-css"
+  },
+  "01.1-applying-tailwind-in-react-components": {
+    "us": "01.1-applying-tailwind-in-react-components"
+  },
+  "01.2-responsive-design-with-tailwind": {
+    "us": "01.2-responsive-design-with-tailwind"
+  },
+  "01.3-customizing-tailwind-styles": {
+    "us": "01.3-customizing-tailwind-styles"
+  },
+  "01.4-advanced-tailwind-techniques": {
+    "us": "01.4-advanced-tailwind-techniques"
+  },
+  "01.5-quiz-test-your-tailwind-knowledge": {
+    "us": "01.5-quiz-test-your-tailwind-knowledge"
+  }
+}

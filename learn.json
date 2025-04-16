@@ -1,0 +1,16 @@
+{
+  "grading": "isolated",
+  "difficulty": "Beginner",
+  "editor": {
+    "version": "5.0",
+    "agent": "vscode"
+  },
+  "duration": 16,
+  "description": {
+    "us": "Learn how to apply stylings faster to your React Applications using Tailwind, with a focus on practical coding exercises."
+  },
+  "title": {
+    "us": "Styling with Tailwind in React"
+  },
+  "slug": "styling-with-tailwind-in-react"
+}
