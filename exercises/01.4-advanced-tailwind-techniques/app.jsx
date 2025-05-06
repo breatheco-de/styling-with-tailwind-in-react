@@ -1,28 +1,28 @@
-// Advanced Tailwind Techniques in React
-// 
-// In this exercise, you will create a React component that demonstrates the use of advanced Tailwind CSS features.
-// 
-// Instructions:
-// 1. Create a React component that includes a button and an icon.
-// 2. Apply Tailwind pseudo-classes to change the button's background color on hover and focus.
-// 3. Add an animation to the icon using Tailwind's animation utilities.
-// 4. Ensure the component is responsive and looks good on both mobile and desktop screens.
-// 
-// Example:
-// - Use `hover:bg-green-500` and `focus:bg-green-700` for the button.
-// - Apply `animate-bounce` to the icon.
-// 
-// Start coding below:
+// index.js
+import React from "react";
+import ReactDOM from "react-dom";
 
-import React from 'react';
+const script = document.createElement("script");
+script.src = "https://cdn.tailwindcss.com";
+script.onload = () => {
+	ReactDOM.render(<AdvancedTailwindComponent />, document.getElementById("myDiv"));
+};
+document.head.appendChild(script);
 
 function AdvancedTailwindComponent() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      {/* Add your button here */}
-      {/* Add your icon here */}
-    </div>
-  );
+	return (
+		<div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-0">
+			<button className="bg-green-400 hover:bg-green-500 focus:bg-green-700 text-white px-4 py-2 rounded transition-colors">Press me</button>
+			<svg
+				width={20}
+				height={20}
+				xmlns="http://www.w3.org/2000/svg"
+				className="mt-6 w-12 h-12 text-green-600 animate-bounce"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+			</svg>
+		</div>
+	);
 }
-
-export default AdvancedTailwindComponent;
